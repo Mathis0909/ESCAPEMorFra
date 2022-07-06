@@ -2,9 +2,11 @@
 
 Table of contents 
 
+- [<div align = "center"> ESCAPE project: Spatial Analysis on *Mormopterus francoismoutoui* </div>](#div-align--center-escape-project-spatial-analysis-on-mormopterus-francoismoutoui-div)
 - [Basic Overview](#basic-overview)
 - [1 Pipeline part: Shaping bearings data](#1-pipeline-part-shaping-bearings-data)
-  - [Input Data Information](#input-data-informations)
+  - [Input Data Informations](#input-data-informations)
+  - [Output Folders Structuration](#output-folders-structuration)
 
 # Basic Overview 
 
@@ -33,8 +35,8 @@ Bellow you can see variables necessary to run pipeline and their description (**
 | ID             | Number. Logger number to creat correspondance to metadata (biometry)
 | Date           | Date. Date of observation  |
 | Observers      | Names of observers |
-| X            | Numeric. X location of the receiver (UTM) | 
-| Y            | Numeric. Y location of the receiver (UTm) |
+| Northing      | Numeric. X location of the receiver (UTM) | 
+| Easting       | Numeric. Y location of the receiver (UTm) |
 | Time           |??. Time of observation |
 | GID          | Numeric. Observation grouping number |
 | Azimuth       | Azimuth bearing toward transmitter signal |
