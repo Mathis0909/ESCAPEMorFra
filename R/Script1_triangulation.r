@@ -13,6 +13,7 @@ dir.create(here::here("output"), showWarnings = FALSE) # creat folder
 ############################################################################# RUN ###############################################################################################
 #################################################################################################################################################################################
 # Export txt
+
 field_BDD <- read.csv(here::here("data", paste0(name_file, ".csv")), header = TRUE, stringsAsFactors = TRUE)
 write.table(field_BDD, paste0(path_output, "/", name_file, ".txt"), sep = ",", row.names = FALSE)
 
